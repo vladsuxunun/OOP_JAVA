@@ -1,0 +1,38 @@
+package lab63;
+
+public class Employee extends Person {
+
+	double salary;
+	String position;
+	
+	int yearStart;
+	String insuranceNum;
+	
+
+	public Employee(String nname, double nesalary, int newyearStart, String hh) {
+		super(nname);
+		salary = nesalary;
+
+		yearStart = newyearStart;
+		insuranceNum = hh;
+	}
+
+	public String toString() {
+		return "summary" + super.toString() + salary + yearStart + insuranceNum + super.equals();
+	}
+
+	public int equals() {
+		return 665;
+	}
+	public double Getsalary() {
+		return salary;
+	}
+	public String Getpositions() {
+		return position;
+	}
+	public int GetyearStart() {
+		return yearStart;
+	}
+
+
+}

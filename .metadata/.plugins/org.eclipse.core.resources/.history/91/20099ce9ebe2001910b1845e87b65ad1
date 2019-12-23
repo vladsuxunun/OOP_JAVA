@@ -1,0 +1,39 @@
+
+enum Color{
+		BLACK,
+		RED
+};
+public abstract class Shape {
+	private Color color;
+	private int x;
+	static int cnt=0;
+	
+	public Shape(Color color,int x) {
+		this.color=color;
+		this.x=x;
+	}
+	
+	public Shape() {
+	}
+	
+	public void setColor(Color color) {
+		this.color=color;
+	}
+	
+	public void setX(int x){
+		this.x=x;
+	}
+	
+	public Color getColor() {
+		return color;
+	}
+	
+	public int getX() {
+		return x;
+	}
+	
+	public abstract void draw();
+	
+	public abstract void draw(int x);
+
+}

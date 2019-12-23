@@ -1,0 +1,53 @@
+package lab25;
+
+public class SchoolBoy {
+	  private final String classwords="A";
+	  private int id;
+	  private static int ID=0;
+	  private String name;
+	  private String surname;
+	  
+	  {
+	    id = ID++;
+	  }
+	  
+	  public SchoolBoy(String name,String surname) {
+	    this.name=name;
+	    this.surname=surname;
+	  }
+	  public int getId() {
+	    return id;
+	  }
+	  public void setName() {
+	    this.name=name;
+	  }
+	  
+	  public void setSurname() {
+	    this.surname=surname;
+	  }
+	  
+	  public String getName() {
+	    return name;
+	  }
+	  
+	  public String getSurname() {
+	    return surname;
+	  }
+	  
+	  public String getclasswords() {
+	    return classwords;
+	  }
+	  
+	  public String toString() {
+	    return "ID: "+ getId() + " ||"+" Name: "+ getName() +" ||"+" Surname: "+getSurname()+" ||"+" classwords: " + classwords;
+	  }
+	  
+	  public void bill() {
+	    System.out.println("150kz");
+	  }
+	  
+	  public void scholarship(int upgrade) {
+	    int bills= 145;
+	    System.out.println("Student's scholarship is "+(bills+upgrade)+" KZT");
+	  }
+	}

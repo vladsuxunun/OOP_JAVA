@@ -1,0 +1,19 @@
+package lab63;
+
+public class Person {
+	String name;
+	
+	public Person(String newname) {
+		this.name = newname;
+	}
+	public String toString()
+	{
+		return name;
+	}
+	 
+	public int  equals()
+	{
+		return 5;
+	}
+
+}

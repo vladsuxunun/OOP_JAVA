@@ -1,0 +1,21 @@
+package lab63;
+
+import java.util.Vector;
+
+public class Manager {//extends  //Employee {
+	String name;
+	static Vector<Employee> work = new Vector<Employee>();
+	public void add(Employee p)
+	{
+		work.add(p);
+	}
+	public void print()
+	{
+		for(Employee s : work)
+		{
+			System.out.println(s);
+		}
+		
+	}
+	
+}

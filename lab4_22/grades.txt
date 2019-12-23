@@ -1,0 +1,48 @@
+Ivanov Ivan - "F"
+Aliyev Ali - "C"
+Menshikov Sergey - "A"
+Safarov Ruslan - "A"
+Damir Moldabayev - "F"
+Sansyzbayev Daniyar - "C"
+Sukhinin Vladislav - "D"
+Shaymerdin Shyngyskhan - "D"
+Average - 71
+Maximum - 95
+Minimum - 50
+
+Ivanov Ivan - "A"
+Aliyev Ali - "F"
+Menshikov Sergey - "A"
+Safarov Ruslan - "A"
+Damir Moldabayev - "B"
+Sansyzbayev Daniyar - "A"
+Sukhinin Vladislav - "B"
+Shaymerdin Shyngyskhan - "A"
+Average - 85
+Maximum - 100
+Minimum - 22
+
+Ivanov Ivan - "A"
+Aliyev Ali - "F"
+Menshikov Sergey - "A"
+Safarov Ruslan - "A"
+Damir Moldabayev - "B"
+Sansyzbayev Daniyar - "A"
+Sukhinin Vladislav - "B"
+Shaymerdin Shyngyskhan - "A"
+Average - 85
+Maximum - 100
+Minimum - 22
+
+Ivanov Ivan - "A"
+Aliyev Ali - "F"
+Menshikov Sergey - "A"
+Safarov Ruslan - "A"
+Damir Moldabayev - "B"
+Sansyzbayev Daniyar - "A"
+Sukhinin Vladislav - "B"
+Shaymerdin Shyngyskhan - "A"
+Average - 85
+Maximum - 100
+Minimum - 22
+
